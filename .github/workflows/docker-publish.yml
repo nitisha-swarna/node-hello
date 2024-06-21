@@ -19,8 +19,8 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v1
       with:
-        username: ${{ secrets.nitisha2 }}
-        password: ${{ secrets.Myphoneisgold@01 }}
+        username: nitisha2
+        password: Myphoneisgold@01
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
