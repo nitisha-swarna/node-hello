@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: amazon-linux
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
@@ -29,4 +29,35 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: nitisha2/node-hello:latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
